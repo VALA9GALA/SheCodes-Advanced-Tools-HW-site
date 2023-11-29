@@ -127,16 +127,28 @@ p {
   }
   h2 {
     font-size: 36px;
+    text-align: center;
+  }
+  p {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
   }
   .index-img {
     display: none;
   }
   .primary-link {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
-.container-index{
-display: flex;
-justify-content: center;
-}
+  .weather-app {
+    margin-left: 15px;
+  }
+  .yogurt-app {
+    margin-left: 38px;
+  }
+  .about-paragraphs {
+    margin: 10px 25px;
+  }
 }
