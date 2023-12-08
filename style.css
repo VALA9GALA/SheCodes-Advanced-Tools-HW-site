@@ -2,10 +2,16 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --special-font: Kalnia;
+  --primary-font: Hedvig Letters Sans;
 }
 
 body {
+  font-family: var(--primary-font);
   margin: 60px auto;
+}
+.fyi {
+  margin-top: 80px;
 }
 
 h1,
@@ -19,30 +25,40 @@ h1 {
 }
 
 h2 {
+  font-family: Open;
   font-size: 48px;
 }
 
 h3 {
+  font-family: Open;
   font-size: 24px;
   opacity: 0.7;
 }
 .hi {
+  font-weight: 500;
   margin-left: -60px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .navbar-brand {
   color: var(--primary-color) !important;
+  font-family: var(--special-font);
 }
 .call-me-val {
   font-size: 32px;
   opacity: 0.7;
 }
 .val {
+  font-family: var(--special-font);
   color: var(--primary-color);
+  font-weight: 600;
   letter-spacing: 8px;
   opacity: 0.8;
 }
+.about-page {
+  font-family: var(--primary-font);
+}
 .about-me {
+  font-family: var(--special-font);
   color: var(--primary-color);
   opacity: 0.8;
 }
@@ -55,6 +71,10 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.yogurt-app {
+  margin-left: 12px;
 }
 .img-fluid {
   max-width: 100%;
@@ -109,12 +129,13 @@ p {
 }
 
 .email-link {
+  font-family: var(--special-font);
   display: flex;
   justify-content: center;
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
-  margin-right: -30px;
+  margin-left: 40px;
 }
 
 .email-link:hover {
@@ -150,6 +171,9 @@ p {
   }
   .yogurt-app {
     margin-left: 38px;
+  }
+  .yogurt-link {
+    margin-left: -8px;
   }
   .about-paragraphs {
     margin: 10px 25px;
