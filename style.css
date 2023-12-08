@@ -8,10 +8,14 @@
 
 body {
   font-family: var(--primary-font);
-  margin: 60px auto;
+  margin: 10px auto;
+}
+.hero{
+  background-color: var(--secondary-color);
+  padding: 40px
 }
 .fyi {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 h1,
@@ -37,7 +41,6 @@ h3 {
 .hi {
   font-weight: 500;
   margin-left: -60px;
-  margin-top: 40px;
 }
 .navbar-brand {
   color: var(--primary-color) !important;
@@ -56,6 +59,7 @@ h3 {
 }
 .about-page {
   font-family: var(--primary-font);
+  margin-top: 60px;
 }
 .about-me {
   font-family: var(--special-font);
@@ -91,12 +95,12 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 15px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
