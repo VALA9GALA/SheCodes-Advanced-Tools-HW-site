@@ -158,14 +158,21 @@ p {
   color: #4d47be;
 }
 @media (max-width: 576px) {
+  .fyi {
+    font-size: 18px;
+  }
   h1 {
-    font-size: 48px;
+    font-size: 66px;
   }
   .hi {
     margin-left: -5px;
+    font-size: 28px;
+  }
+  .call-me-val {
+    font-size: 26px;
   }
   h2 {
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
   }
   p {
