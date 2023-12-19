@@ -48,13 +48,24 @@ h3 {
   letter-spacing: 2px;
 }
 .hi {
+  font-family: var(--special-font);
   font-weight: 700;
   margin-left: -60px;
 }
 .navbar-brand {
   color: var(--primary-color) !important;
   font-family: var(--special-font);
+  font-size: 26px;
+  border: 2px solid black;
+  padding: 2px 5px;
+  text-shadow: 2px 4px 4px;
 }
+.navbar-nav {
+  font-family: var(--primary-font) !important;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
 .call-me-val {
   font-size: 32px;
   opacity: 0.7;
@@ -116,6 +127,22 @@ p {
   padding: 15px 25px;
   text-decoration: none;
   text-transform: capitalize;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  font-size: 24px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.social-icons a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  transition: ease-in-out 200ms;
 }
 
 .contact-link {
