@@ -22,6 +22,7 @@ body {
 }
 .fyi {
   margin-top: 30px;
+  margin-left: -25px;
 }
 
 h1,
@@ -42,15 +43,14 @@ h2 {
 
 h3 {
   font-family: Rubik;
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 30px;
+
   font-weight: 600;
   letter-spacing: 2px;
 }
 .hi {
   font-family: var(--special-font);
   font-weight: 700;
-  margin-left: -60px;
 }
 .navbar-brand {
   color: var(--primary-color) !important;
@@ -69,15 +69,15 @@ h3 {
   color: var(--primary-color) !important;
 }
 .call-me-val {
-  font-size: 32px;
-  opacity: 0.7;
+  font-size: 26px;
+  opacity: 0.8;
 }
 .val {
   font-family: var(--special-font);
   color: var(--primary-color);
   font-weight: 600;
   letter-spacing: 8px;
-  opacity: 0.8;
+  opacity: 0.9;
   text-shadow: 0px 4px 6px darkslateblue;
 }
 .about-page {
